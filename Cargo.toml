@@ -3,6 +3,12 @@ name = "advancedresearch-translate"
 version = "0.1.0"
 edition = "2021"
 exclude = ["images/*"]
+keywords = ["advancedresearch", "translate", "ancient", "language", "texts"]
+description = "A tool for translation or reading ancient texts in their original language"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/advancedresearch/translate.git"
+homepage = "https://github.com/advancedresearch/translate"
 
 [lib]
 name = "translate"
