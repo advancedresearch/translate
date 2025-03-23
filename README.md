@@ -6,7 +6,7 @@ A tool for translation or reading ancient texts in their original language
 To install:
 
 ```text
-cargo install --example advancedresearch-translate translate
+cargo install advancedresearch-translate --example translate
 ```
 
 To run:
