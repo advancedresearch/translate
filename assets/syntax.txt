@@ -1,0 +1,5 @@
+2 , = [.w? "," .w?]
+1 item = ["[" .w? .t?:"from" , .t?:"to" .w? "]"]
+2 data = ["[" .w? .s?.(, [.w? item:"item" .w?]) .w? "]"]
+0 doc = data:"data"
+

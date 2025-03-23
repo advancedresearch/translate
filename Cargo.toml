@@ -1,0 +1,15 @@
+[package]
+name = "advancedresearch-translate"
+version = "0.1.0"
+edition = "2021"
+exclude = ["images/*"]
+
+[lib]
+name = "translate"
+path = "src/lib.rs"
+
+[dependencies]
+piston_meta = "2.0.1"
+
+[dev-dependencies]
+eframe = "0.30.0"
